@@ -1,3 +1,10 @@
+if game.Players.LocalPlayer.UserId == 688796609 then
+print("Access Enabled")
+else
+game.Players.LocalPlayer:Kick("You're not Whitelisted! (Join dsc.gg/8hQfcezU7D to buy!)")
+print("Denied")
+end
+
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
 
 local w = library:CreateWindow("Aura X") -- Creates the window
