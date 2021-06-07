@@ -69,3 +69,7 @@ end)
 setreadonly(MT, true)
 end)
 
+b:Button("esp",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/kvr0AuWz"))();
+
+end)
